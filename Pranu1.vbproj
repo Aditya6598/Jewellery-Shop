@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC13A8C0-FB7F-4AF9-AC1C-0F0728E3B636}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Pranu1</RootNamespace>
+    <AssemblyName>Pranu1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Pranu1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Pranu1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Aboutus.aspx" />
+    <Content Include="Aboutus.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="aboutuslogin.aspx" />
+    <Content Include="aboutuslogin.aspx.cs" />
+    <Content Include="AboutUspost.aspx" />
+    <Content Include="AboutUspost.aspx.cs" />
+    <Content Include="App_Code\clsFunctions.cs" />
+    <Content Include="App_Code\MyService.cs" />
+    <Content Include="App_Code\reuse.jpg" />
+    <Content Include="App_Code\reuse1.jpg" />
+    <Content Include="App_Data\sysobject.mdf">
+    </Content>
+    <Content Include="App_Data\sysobject_log.ldf">
+      <DependentUpon>sysobject.mdf</DependentUpon>
+    </Content>
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\AjaxControlToolkit.pdb" />
+    <Content Include="Default.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Home.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="HomeafterLogin.aspx" />
+    <Content Include="HomeafterLogin.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="InsertCompDtls.aspx" />
+    <Content Include="InsertCompDtls.aspx.cs" />
+    <Content Include="InsertCompDtlsThanks.aspx" />
+    <Content Include="InsertCompDtlsThanks.aspx.cs" />
+    <Content Include="LoginPage.aspx" />
+    <Content Include="LoginPage.aspx.cs" />
+    <Content Include="MyService.asmx" />
+    <Content Include="PostSearch.aspx" />
+    <Content Include="PostSearch.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="RegisterUser.aspx" />
+    <Content Include="RegisterUser.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="RegUserThanx.aspx" />
+    <Content Include="RegUserThanx.aspx.cs" />
+    <Content Include="reuse.jpg" />
+    <Content Include="reuse1.jpg" />
+    <Content Include="SearchCompDtls.aspx" />
+    <Content Include="SearchCompDtls.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="UploadedFiles\10_a.txt" />
+    <Content Include="UploadedFiles\11_a.txt" />
+    <Content Include="UploadedFiles\12_a.txt" />
+    <Content Include="UploadedFiles\1_imp.txt" />
+    <Content Include="UploadedFiles\2_imp.txt" />
+    <Content Include="UploadedFiles\3_imp.txt" />
+    <Content Include="UploadedFiles\4_imp.txt" />
+    <Content Include="UploadedFiles\4_important.txt" />
+    <Content Include="UploadedFiles\5_black.bmp" />
+    <Content Include="UploadedFiles\6_imp.txt" />
+    <Content Include="UploadedFiles\7_imp.txt" />
+    <Content Include="UploadedFiles\8_a.txt" />
+    <Content Include="UploadedFiles\9_a.txt" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Code\ClassDiagram.cd" />
+    <None Include="App_Code\REUSE2.JPG.shs" />
+    <None Include="bin\AjaxControlToolkit.dll.refresh" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="REUSE2.JPG.shs" />
+    <None Include="UploadedFiles\3_printout.doc" />
+    <None Include="UploadedFiles\4_valueplus1252 .doc" />
+    <None Include="UploadedFiles\5_printout.doc" />
+    <None Include="UploadedFiles\6_amg_FINAL111.doc" />
+    <None Include="UploadedFiles\7_ER diagram3.doc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3921</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
